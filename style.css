@@ -33,6 +33,7 @@ header {
 nav {
     margin-top: 56px;
     margin-left: 29%;   
+    margin-bottom: 50px;
 }
 .topnav a {
     color: white;
@@ -42,13 +43,13 @@ nav {
    font-weight: bold;
 }
 
+.topnav .icon {
+    display: none;
+}
 .topnav a:hover {
     border-bottom: 3px solid #fcac45;
 }
 
-.topnav .icon {
-    display: none;
-}
 
 main {
    display: flex;
@@ -102,7 +103,7 @@ color: #858585;
 .about_right li {
     background: url(img/point.png) 0px no-repeat;
     padding-left: 25px;
-    margin-top: 10px;
+    margin-top: 5px;
     color: #5a5a5a;
 }
 .mw-100 {
@@ -117,6 +118,51 @@ color: #858585;
 
 
 
+.main_team {
+    background: #000;
+    text-align: center;
+    padding: 100px 0 165px 0;
+    color: white;
+}
+.main_team h1 {
+    font-size: 44px;
+    padding-bottom: 30px;
+}
+.line {
+    width: 110px;
+    height: 3px;
+    background: #fcac45;
+    position: relative;
+    left: 46%;
+    margin-bottom: 85px;
+}
+.photo img {
+    /* background: #d7d7d7; */
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+.card {
+  margin: 0 40px;  
+}
+.team_cards {
+    display: flex;
+}
+.name {
+    font-size: 20px;
+    margin-bottom: 7px;
+    font-weight: bolder;
+}
+.position {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.about_position {
+    font-size: 14px;
+    font-weight: lighter;
+    font-style: italic;
+}
 
 
 
@@ -197,5 +243,9 @@ main .main_welcome .mycompany h1 {
     font-size: 20px;
 }
 
+
+.team_cards {
+    flex-direction: column;
 }
 
+}
