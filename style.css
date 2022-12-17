@@ -182,6 +182,9 @@ color: #858585;
     text-align: center;
     margin-bottom: 100px;
 }
+.services_card img:hover {
+    opacity: 0.6;
+}
 .services_card h4 {
     margin-top: 20px;
     margin-bottom: 15px;
@@ -224,9 +227,35 @@ font-weight: 100;
     margin-bottom: 50px;
 }
 
+.main_work {
+    text-align: center;
+    padding: 100px 0 100px 0;
+}
+.main_work h1 {
+    margin-bottom: 30px;
+}
+.main_work p {
+    margin-bottom: 175px;
+    color: #5a5a5a;
+}
+.main_work img:hover {
+opacity: 0.9;
+}
 
 
 
+
+@media screen and (max-width: 1409px) {
+    .line1 img:not(:first-child){
+        display: none;
+    }
+    .line2 img:not(:first-child){
+        display: none;
+    }
+    .line3 img:not(:first-child){
+        display: none;
+    }
+}
 @media screen and (max-width: 1240px) {
     nav {
         margin-left: 20%;
@@ -236,6 +265,7 @@ font-weight: 100;
     nav {
         margin-left: 10%;
     }
+    
 }
 
 @media screen and (max-width: 1010px) {
@@ -307,6 +337,16 @@ main .main_welcome .mycompany h1 {
 
 .services_cards {
     grid-template-columns: auto;
+}
+
+.line1 img:not(:first-child){
+    display: none;
+}
+.line2 img:not(:first-child){
+    display: none;
+}
+.line3 img:not(:first-child){
+    display: none;
 }
 
 }
