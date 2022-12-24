@@ -339,28 +339,30 @@ footer {
     .line3 img:not(:first-child){
         display: none;
     }
+  
+    }
     .form_inputs  {
 flex-direction: column;
 
 
     }
-    .contact_wrapper p,span {
+    .wrapper p,span {
         display: block;
         text-align: center; 
-       
+       font-size: 10px;
     }
    
     .form_inputs input {
-        width: 60%;
+        width: 80%;
         margin: 0 0 10px 0;
     }
     .button_block {
         display: block;
         text-align: center;
     }
-    .contact_wrapper textarea {
+    .wrapper textarea {
      text-align: center;
-        width: 60%;  
+        width: 80%;  
     }
     
 }
