@@ -340,30 +340,7 @@ footer {
         display: none;
     }
   
-    }
-    .form_inputs  {
-flex-direction: column;
-
-
-    }
-    .wrapper p,span {
-        display: block;
-        text-align: center; 
-       font-size: 10px;
-    }
-   
-    .form_inputs input {
-        width: 80%;
-        margin: 0 0 10px 0;
-    }
-    .button_block {
-        display: block;
-        text-align: center;
-    }
-    .wrapper textarea {
-     text-align: center;
-        width: 80%;  
-    }
+       
     
 }
 @media screen and (max-width: 1240px) {
@@ -411,7 +388,30 @@ flex-direction: column;
       display: block;
       text-align: left;
     }
-
+    .contact_wrapper {
+        width: 80%;
+    }
+    .form_inputs  {
+        flex-direction: column;
+            }
+            .contact_wrapper p,span {
+                display: block;
+                text-align: center; 
+               font-size: 10px;
+            }
+           
+            .form_inputs input {
+                width: 80%;
+                margin: 0 0 10px 0;
+            }
+            .button_block {
+                display: block;
+                text-align: center;
+            }
+            .contact_wrapper textarea {
+             text-align: center;
+                width: 80%;  
+            }
 
 
 main .main_welcome {
