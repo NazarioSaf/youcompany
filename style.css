@@ -339,6 +339,30 @@ footer {
     .line3 img:not(:first-child){
         display: none;
     }
+    .form_inputs  {
+flex-direction: column;
+
+
+    }
+    .contact_wrapper p,span {
+        display: block;
+        text-align: center; 
+       
+    }
+   
+    .form_inputs input {
+        width: 60%;
+        margin: 0 0 10px 0;
+    }
+    .button_block {
+        display: block;
+        text-align: center;
+    }
+    .contact_wrapper textarea {
+     text-align: center;
+        width: 60%;  
+    }
+    
 }
 @media screen and (max-width: 1240px) {
     nav {
@@ -433,5 +457,6 @@ main .main_welcome .mycompany h1 {
 .line3 img:not(:first-child){
     display: none;
 }
+
 
 }
